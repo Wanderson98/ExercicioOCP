@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ExercicioOCP/1.0.0": {
+        "dependencies": {
+          "BibliotecaOCP": "1.0.0"
+        },
+        "runtime": {
+          "ExercicioOCP.dll": {}
+        }
+      },
+      "BibliotecaOCP/1.0.0": {
+        "runtime": {
+          "BibliotecaOCP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExercicioOCP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaOCP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
