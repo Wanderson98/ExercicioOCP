@@ -1,7 +1,7 @@
-﻿using System;
+﻿using BibliotecaOCP.Candidaturas;
 using BibliotecaOCP.Enums;
 using BibliotecaOCP.Pessoas;
-using BibliotecaOCP.Contas;
+using System;
 using System.Collections.Generic;
 
 namespace ExercicioOCP
@@ -22,12 +22,12 @@ namespace ExercicioOCP
             List<ModeloEmpregado> empregados = new List<ModeloEmpregado>();
             Candidaturas processoCandidato = new Candidaturas();
 
-            foreach(var pessoa in candidatos)
+            foreach (var pessoa in candidatos)
             {
                 empregados.Add(processoCandidato.Criacao(pessoa));
             }
 
-            foreach(var pessoa in empregados)
+            foreach (var pessoa in empregados)
             {
                 Console.WriteLine(pessoa);
             }

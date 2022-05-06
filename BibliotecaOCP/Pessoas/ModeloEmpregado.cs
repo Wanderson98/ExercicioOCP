@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BibliotecaOCP.Pessoas
+﻿namespace BibliotecaOCP.Pessoas
 {
     public class ModeloEmpregado
     {
@@ -19,5 +13,5 @@ namespace BibliotecaOCP.Pessoas
             return $"{PrimeiroNome} {UltimoNome}: {EnderecoEmail}. É Gerente: {Gerente} - É Executivo: {Executivo}";
         }
     }
-    
+
 }

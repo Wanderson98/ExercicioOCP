@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BibliotecaOCP.Enums;
 using BibliotecaOCP.Pessoas;
-using BibliotecaOCP.Enums;
 
-namespace BibliotecaOCP.Contas
+namespace BibliotecaOCP.Candidaturas
 {
     public class Candidaturas
     {
@@ -26,7 +21,7 @@ namespace BibliotecaOCP.Contas
                 case FuncaoEmpregado.Desenvolvedor:
                     break;
                 case FuncaoEmpregado.Executivo:
-                    modeloEmpregado.Executivo = true;   
+                    modeloEmpregado.Executivo = true;
                     break;
                 case FuncaoEmpregado.Estagiário:
                     break;
